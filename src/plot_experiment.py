@@ -86,6 +86,7 @@ def plotExperiment(t, salientFeatures, last_estimation, pictures,
     plt.plot([last_estimation, last_estimation], [0,1], c='b', lw=2.0,label='Estimation')
     plt.xlim(0, max(real_time_now, last_estimation)*1.5)
     plt.xlabel('time (sec)')
+    plt.legend()
 
 
     if save_it :
