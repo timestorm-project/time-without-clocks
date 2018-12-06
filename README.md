@@ -42,3 +42,8 @@ while to run with a set of given frames (given in *png* format), type
 ```bash
 python3 demo_2018_nov.py -i <folder path>
 ```
+
+
+## License
+
+This project is licensed under the GLUv3 License - see the [LICENSE](LICENSE) file for details.
