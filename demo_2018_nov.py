@@ -67,7 +67,7 @@ while DEVICE >= 0 or len(frame_path) > 0:
         onset = np.shape(frame)[0] - np.shape(frame)[1]
         frame = frame[int(onset/2):-int(onset/2),:,:]
     elif np.shape(frame)[0] < np.shape(frame)[1]:
-        onset = np.shape(frame)[1] - np.shape(frame)[1]
+        onset = np.shape(frame)[1] - np.shape(frame)[0]
         frame = frame[:,int(onset/2):-int(onset/2),:]
 
     frame_to_show = np.copy(frame)
@@ -122,11 +122,12 @@ while DEVICE >= 0 or len(frame_path) > 0:
     else:
         frame = cv2.imread(frame_path.pop(0))
 
+
     if np.shape(frame)[0] > np.shape(frame)[1]:
         onset = np.shape(frame)[0] - np.shape(frame)[1]
         frame = frame[int(onset/2):-int(onset/2),:,:]
     elif np.shape(frame)[0] < np.shape(frame)[1]:
-        onset = np.shape(frame)[1] - np.shape(frame)[1]
+        onset = np.shape(frame)[1] - np.shape(frame)[0]
         frame = frame[:,int(onset/2):-int(onset/2),:]
 
     frame_to_show = np.copy(frame)
