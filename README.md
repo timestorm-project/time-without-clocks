@@ -1,6 +1,6 @@
 # time-without-clocks
 
-This source code release accompanies the paper with title "*Activity in perceptual classification networks as a basis for human subjective time perception*", which is currently accepted for publication in Nature Communications and available in an [online pre-print version](https://www.biorxiv.org/content/early/2018/03/06/172387).
+This source code release accompanies the paper with title "*[Activity in perceptual classification networks as a basis for human subjective time perception](https://www.nature.com/articles/s41467-018-08194-7)*", Nature Communications 10.1 (2019): 1-9.
 
 ### Instructions
 
